@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="23"
+    tools:context=".SignUpActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="23">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:weightSum="21">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:orientation="vertical"
+                android:weightSum="18">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:orientation="vertical"
+                    android:weightSum="15">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:layout_gravity="center"
+                        android:orientation="vertical"
+                        android:weightSum="12">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="3"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:weightSum="9">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="3"
+                                android:layout_gravity="center"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="3"
+                                    android:layout_gravity="center"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <EditText
+                                        android:id="@+id/FirstName"
+                                        android:layout_width="210sp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:hint="First Name" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center"
+                                    android:layout_weight="3"
+                                    android:orientation="vertical">
+
+                                    <EditText
+                                        android:id="@+id/LastName"
+                                        android:layout_width="210sp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:hint="Last Name" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="6"
+                                android:layout_gravity="center"
+                                android:orientation="vertical">
+
+                                <EditText
+                                    android:id="@+id/NationalIdNo"
+                                    android:layout_width="210sp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:hint="National ID No" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="9"
+                            android:layout_gravity="center"
+                            android:orientation="vertical">
+
+                            <EditText
+                                android:id="@+id/signUpPhoneNo"
+                                android:layout_width="210sp"
+                                android:layout_height="wrap_content"
+                                android:ems="10"
+                                android:layout_gravity="center"
+                                android:inputType="phone"
+                                android:hint="Phone No"/>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_gravity="center"
+                        android:weightSum="12">
+
+                        <EditText
+                            android:id="@+id/signUpEmail"
+                            android:layout_width="210sp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:ems="10"
+                            android:inputType="textEmailAddress"
+                            android:hint="Email"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="15"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/signupPassword"
+                        android:layout_width="210sp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:hint="Password" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="18"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/retypePassword"
+                    android:layout_width="210sp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:hint="Re-type Password" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="21"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/SignUp"
+                android:layout_width="210sp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Sign Up" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
